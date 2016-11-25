@@ -124,7 +124,7 @@
 
 <body>
     <div id="wrap">
-        <header id="header" style="max-width:1432px;margin:0 auto;">
+        <header id="header" style="max-width:1120px;margin:0 auto;">
     <div id="header-outer" class="outer">
         <div class="container">
             <div class="container-inner">
@@ -134,7 +134,7 @@
                     </h1>
                     
                 </div>
-                <div id="header-inner" class="nav-container" style="top:199px">
+                <div id="header-inner" class="nav-container" style="top:199px;width:1090px;margin-left:-20px;">
                     <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
                     <div class="nav-container-inner">
                         <ul id="main-nav">
@@ -146,7 +146,7 @@
                                         <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/影评/">影评</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/诗词/">诗词</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/音乐/">音乐</a></li></ul>
                                     
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/about/index.html">关于</a>
+                                    <a class="main-nav-list-link" href="/about/index.html">关于我</a>
                                 </li>
                             
                         </ul>
@@ -266,7 +266,7 @@
 
 
 
-    <a data-url="http://yelihui.com/2016/11/21/盟/" data-id="civw512v10002n8qfdli6dc84" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="http://yelihui.com/2016/11/21/盟/" data-id="civxl2oq9000224qfotbufomg" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -333,9 +333,44 @@
     <section id="comments">
     
         
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
+    <div class="ds-thread" data-thread-key="2016/11/21/盟/" data-title="盟" data-url="http://yelihui.com/2016/11/21/盟/"></div>
+    <style>
+        #ds-thread #ds-reset .ds-textarea-wrapper {
+            background: none;
+        }
+        #ds-reset .ds-avatar img {
+            box-shadow: none;
+        }
+        #ds-reset .ds-gradient-bg {
+            background: #f7f7f7;
+        }
+        #ds-thread #ds-reset li.ds-tab a {
+            border-radius: 3px;
+        }
+        #ds-thread #ds-reset .ds-post-button {
+            color: white;
+            border: none;
+            box-shadow: none;
+            background: #d32;
+            text-shadow: none;
+            font-weight: normal;
+            font-family: 'Microsoft Yahei';
+        }
+        #ds-thread #ds-reset .ds-post-button:hover {
+            color: white;
+            background: #DE594C;
+        }
+        #ds-thread #ds-reset .ds-post-button:active {
+            background: #d32;
+        }
+        #ds-smilies-tooltip ul.ds-smilies-tabs li a.ds-current {
+            color: white;
+            background: #d32;
+            box-shadow: none;
+            text-shadow: none;
+            font-weight: normal;
+        }
+    </style>
 
     
     </section>
@@ -504,7 +539,7 @@
             
                 
     <div class="widget-wrap widget-float">
-        <h3 class="widget-title">标签云</h3>
+        <h3 class="widget-title">标签</h3>
         <div class="widget tagcloud">
             <a href="/tags/岁月/" style="font-size: 15px;">岁月</a> <a href="/tags/故事/" style="font-size: 20px;">故事</a> <a href="/tags/记忆/" style="font-size: 15px;">记忆</a> <a href="/tags/诗词/" style="font-size: 10px;">诗词</a> <a href="/tags/音乐/" style="font-size: 15px;">音乐</a>
         </div>
@@ -517,7 +552,7 @@
 </aside>
                 </div>
             </div>
-        </div>
+        </div>		
         <footer id="footer">
     <div class="container">
         <div class="container-inner">
@@ -534,18 +569,15 @@
 </footer>
         
     
-    <script>
-    var disqus_shortname = 'hexo-theme-hueman';
-    
-    
-    var disqus_url = 'http://yelihui.com/2016/11/21/盟/';
-    
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'yelihui'};
     (function() {
-    var dsq = document.createElement('script');
-    dsq.type = 'text/javascript';
-    dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
     </script>
 
@@ -567,6 +599,8 @@
 <!-- Custom Scripts -->
 <script src="/js/main.js"></script>
 
+			
     </div>
+	
 </body>
 </html>

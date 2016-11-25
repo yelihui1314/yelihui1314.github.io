@@ -41,7 +41,7 @@
 
 <body>
     <div id="wrap">
-        <header id="header" style="max-width:1432px;margin:0 auto;">
+        <header id="header" style="max-width:1120px;margin:0 auto;">
     <div id="header-outer" class="outer">
         <div class="container">
             <div class="container-inner">
@@ -51,7 +51,7 @@
                     </h1>
                     
                 </div>
-                <div id="header-inner" class="nav-container" style="top:199px">
+                <div id="header-inner" class="nav-container" style="top:199px;width:1090px;margin-left:-20px;">
                     <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
                     <div class="nav-container-inner">
                         <ul id="main-nav">
@@ -63,7 +63,7 @@
                                         <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/影评/">影评</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/诗词/">诗词</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/音乐/">音乐</a></li></ul>
                                     
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/about/index.html">关于</a>
+                                    <a class="main-nav-list-link" href="/about/index.html">关于我</a>
                                 </li>
                             
                         </ul>
@@ -152,7 +152,7 @@
 <span class="comment-counter">
     <i class="fa fa-comments-o"></i>
     
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yelihui.com/2016/11/21/盟/">0</span>
+        <span class="ds-thread-count" data-thread-key="2016/11/21/盟/">0</span>
     
 </span>
 
@@ -356,7 +356,7 @@
             
                 
     <div class="widget-wrap widget-float">
-        <h3 class="widget-title">标签云</h3>
+        <h3 class="widget-title">标签</h3>
         <div class="widget tagcloud">
             <a href="/tags/岁月/" style="font-size: 15px;">岁月</a> <a href="/tags/故事/" style="font-size: 20px;">故事</a> <a href="/tags/记忆/" style="font-size: 15px;">记忆</a> <a href="/tags/诗词/" style="font-size: 10px;">诗词</a> <a href="/tags/音乐/" style="font-size: 15px;">音乐</a>
         </div>
@@ -369,7 +369,7 @@
 </aside>
                 </div>
             </div>
-        </div>
+        </div>		
         <footer id="footer">
     <div class="container">
         <div class="container-inner">
@@ -386,16 +386,15 @@
 </footer>
         
     
-    <script>
-    var disqus_shortname = 'hexo-theme-hueman';
-    
-    
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'yelihui'};
     (function() {
-    var dsq = document.createElement('script');
-    dsq.type = 'text/javascript';
-    dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
     </script>
 
@@ -417,6 +416,8 @@
 <!-- Custom Scripts -->
 <script src="/js/main.js"></script>
 
+			
     </div>
+	
 </body>
 </html>
