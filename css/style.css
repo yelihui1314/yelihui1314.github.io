@@ -278,7 +278,9 @@ code {
 .main-body {
   margin-top: -60px;
   background-color: #fff;
+  overflow: hidden;
 }
+overflow-y: auto,
 .main-body-inner {
   position: relative;
   -webkit-box-sizing: border-box;
@@ -289,11 +291,14 @@ code {
   padding-left: 340px;
   background: url("images/s-left.png") repeat-y left 0;
 }
+overflow-y: auto:before,
 .main-body-inner:before,
+overflow-y: auto:after,
 .main-body-inner:after {
   content: "";
   display: table;
 }
+overflow-y: auto:after,
 .main-body-inner:after {
   clear: both;
 }
