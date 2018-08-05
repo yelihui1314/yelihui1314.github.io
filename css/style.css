@@ -989,7 +989,7 @@ top: 50px .subtitle,
   padding: 2px 7px;
   line-height: 19px;
   position: absolute;
-  display: inline-block;
+  display: none;
   background-color: #82b965;
 }
 .article-summary .article-summary-inner .thumbnail .comment-counter:before {
@@ -997,7 +997,7 @@ top: 50px .subtitle,
   left: -16px;
   content: '';
   position: absolute;
-  display: inline-block;
+  display: none;
   border: 9px solid transparent;
   border-right-color: #82b965;
 }
