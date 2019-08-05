@@ -176,7 +176,6 @@ td {
   font-family: inherit;
   font-size: 100%;
   vertical-align: baseline;
-  overflow: hidden;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -349,6 +348,7 @@ code {
 }
 #header-inner {
   position: relative;
+  display: none;
 }
 top: 50px,
 #header-title {
