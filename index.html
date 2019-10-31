@@ -1,12 +1,90 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-CN">
 <head>
-    <meta charset="utf-8">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
     
-    <title>时光小栈</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <meta name="description" content="stay hungry stay foolish">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="stay hungry stay foolish">
 <meta property="og:type" content="website">
 <meta property="og:title" content="时光小栈">
 <meta property="og:url" content="http://yelihui.com/index.html">
@@ -15,893 +93,1983 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="时光小栈">
 <meta name="twitter:description" content="stay hungry stay foolish">
-    
 
-    
-        <link rel="alternate" href="/" title="时光小栈" type="application/atom+xml" />
-    
 
-    
 
-    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
-    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
-
-    <link rel="stylesheet" href="/css/style.css">
-
-    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
-    
-    
-        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
-    
-    
-    
-        <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?b43ab90b6c26df29c6ca065fb6c8de6d";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
 </script>
 
-    
 
+
+  <link rel="canonical" href="http://yelihui.com/"/>
+
+
+
+
+
+  <title> 时光小栈 </title>
 </head>
 
-<body>
-    <div id="wrap">
-        <header id="header" style="max-width:1120px;margin:0 auto;">
-    <div id="header-outer" class="outer">
-        <div class="container">
-            <div class="container-inner">
-                <div id="header-title">
-                    <h1 class="logo-wrap">
-                        <a href="/" class="logo"></a>
-                    </h1>
-                    
-                </div>
-                <div id="header-inner" class="nav-container" style="top:199px;width:1090px;margin-left:-20px;">
-                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
-                    <div class="nav-container-inner">
-                        <ul id="main-nav">
-                            
-                                <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/">主页</a>
-                                </li>
-                            
-                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/原创诗词/">原创诗词</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/散文日志/">散文日志</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/经验分享/">经验分享</a></li><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/音乐影评/">音乐影评</a></li></ul>
-                                    
-                                <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/about/index.html">关于我</a>
-                                </li>
-                            
-                        </ul>
-                        <nav id="sub-nav">
-                            <div id="search-form-wrap">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
-    <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="搜索" />
-        <button type="submit" class="search-form-submit"></button>
-    </form>
-    <div class="ins-search">
-    <div class="ins-search-mask"></div>
-    <div class="ins-search-container">
-        <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="想要查找什么..." />
-            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
-        </div>
-        <div class="ins-section-wrapper">
-            <div class="ins-section-container"></div>
-        </div>
-    </div>
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?b43ab90b6c26df29c6ca065fb6c8de6d";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">时光小栈</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
 </div>
-<script>
-(function (window) {
-    var INSIGHT_CONFIG = {
-        TRANSLATION: {
-            POSTS: '文章',
-            PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
-            UNTITLED: '(未命名)',
-        },
-        ROOT_URL: '/',
-        CONTENT_URL: '/content.json',
-    };
-    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
-})(window);
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yelihui.com/2019/10/24/斜阳/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="叶立辉">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/100.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="时光小栈">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="时光小栈" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2019/10/24/斜阳/" itemprop="url">
+                  斜阳
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-10-24T18:06:42+08:00">
+                2019-10-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/散文日志/" itemprop="url" rel="index">
+                    <span itemprop="name">散文日志</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="/2019/10/24/斜阳/soho.png" alt="斜阳"></p>
+<h3 id="西窗斜阳，初寒未霜，月冷人相望"><a href="#西窗斜阳，初寒未霜，月冷人相望" class="headerlink" title="西窗斜阳，初寒未霜，月冷人相望"></a>西窗斜阳，初寒未霜，月冷人相望</h3>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yelihui.com/2017/12/19/每个人的8和24/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="叶立辉">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/100.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="时光小栈">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="时光小栈" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/12/19/每个人的8和24/" itemprop="url">
+                  每个人的8和24
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-19T23:13:42+08:00">
+                2017-12-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/散文日志/" itemprop="url" rel="index">
+                    <span itemprop="name">散文日志</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="/2017/12/19/每个人的8和24/824.jpg" alt="8和24"></p>
+<h2 id="每个人的8和24"><a href="#每个人的8和24" class="headerlink" title="每个人的8和24"></a>每个人的8和24</h2><p>每个人都有自己的8和24<br>8是鲜衣怒马、意气风发的轻狂年少<br>24是历经磨难、坚韧不屈的稳重成熟<br>今天斯台普斯退役了你的8和24<br>时间也会慢慢沉淀我们的8和24</p>
+<p>曾经很害怕，也不敢想象<br>会在斯台普斯再也看不见你飞翔的身影<br>那个轻狂的8号， 那个执着的24号，那个镂刻在记忆里的黑曼巴<br>关于你的记忆碎片太多，仿似都无法聚集<br>依稀记得你爆砍81分后手指苍穹，没能亲眼见证一直是我的遗憾<br>依稀记得你绝杀热火后仰天长啸，我和涛涛看比赛时已忍不住直踢衣柜<br>依稀记得你复仇绿军后忘情呐喊，我也随着你心潮澎湃，激动莫名<br>也记得你被绿军打败后愤恨不甘，我默默的对着你说：you’ll come back<br>也记得你被小牛横扫后痛苦失望，那天晚上我趴在被窝里不敢看、却又忍不住去看<br>也记得你脚跟腱断裂后坚韧顽强，眼里闪着泪光看着你罚完最后一球</p>
+<p>那些痛过、累过、哭过、笑过、拼过、败过、狂过的所有回忆<br>永远凝聚在时光的剪影里了<br>如果有一天我忘记了努力，我会告诉自己有个人叫科比<br>And what can I say? Mamba out… </p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yelihui.com/2017/08/18/2017-8-18-春夏秋冬/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="叶立辉">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/100.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="时光小栈">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="时光小栈" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/08/18/2017-8-18-春夏秋冬/" itemprop="url">
+                  春夏秋冬
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-08-18T01:40:42+08:00">
+                2017-08-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/散文日志/" itemprop="url" rel="index">
+                    <span itemprop="name">散文日志</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="/2017/08/18/2017-8-18-春夏秋冬/cxqd.jpg" alt="春夏秋冬"></p>
+<h2 id="春夏秋冬"><a href="#春夏秋冬" class="headerlink" title="春夏秋冬"></a>春夏秋冬</h2><p>再次听到这首明媚的歌，已不觉间在帝都历经三年<br>也是与你共同度过的三个春夏秋冬<br>依稀记得四年前在天桥上望见你嫣红的背影<br>后来写成婚礼上唱给你的那首歌《依恋》：<br>“天桥上默默的伫立，守候潮涌般的思念<br>那一抹嫣红的背影，刻着相依的那一年”<br>我不知道那一刻能否感动时光，只希望那一刻能感动你</p>
+<p>“深秋中的你填密我梦想，就像落叶飞、轻敲我窗”<br>微凉的秋天，在星城遇见你<br>你在身边，秋风微凉也无碍<br>橘子洲头的烟花，定格了那一年的绚丽<br>而我的心头，定格了那一年浅浅微笑的你</p>
+<p>“冬天该很好，你若尚在场，天空多灰、我们亦放亮”<br>凄清的冬天，去京城找寻你<br>天空虽是灰暗，心却依然明亮<br>清晨陪你去考试，挽手走在冷清的街道上<br>即使寒风凛冽，依然觉得温暖</p>
+<p>“春天该很好、你若尚在场，春风仿佛、爱情在蕴酝”<br>多雨的春天，在羊城守候你<br>伴着淅淅沥沥的雨滴， 诉说每个想你的日子<br>“天长路远魂飞苦，梦魂不到关山难 ”<br>相聚时难、别更难 ！</p>
+<p>“暑天该很好、你若尚在场，火一般的太阳在脸上”<br>炎热的夏天，留京城陪伴你<br>天影楼台、十里青山<br>堤岸杨柳 、湖中荷香<br>颐和园旖旎的风光投下相依的剪影</p>
+<p>感谢与你走过的每一个春夏秋冬<br>最浪漫的不是鲜花、不是承诺<br>是陪你慢慢变老</p>
+<p>今昔忆兮、相伴相惜！</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yelihui.com/2017/01/01/2017-1-1-那些写给岁月的歌/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="叶立辉">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/100.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="时光小栈">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="时光小栈" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/01/01/2017-1-1-那些写给岁月的歌/" itemprop="url">
+                  那些写给岁月的歌
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-01T01:04:42+08:00">
+                2017-01-01
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/音乐影评/" itemprop="url" rel="index">
+                    <span itemprop="name">音乐影评</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="/2017/01/01/2017-1-1-那些写给岁月的歌/zgr.jpg" alt="张国荣"></p>
+<h2 id="时光不经意间走远，我们的梦却还在远方"><a href="#时光不经意间走远，我们的梦却还在远方" class="headerlink" title="时光不经意间走远，我们的梦却还在远方"></a><em>时光不经意间走远，我们的梦却还在远方</em></h2><h3 id="《我》—张国荣"><a href="#《我》—张国荣" class="headerlink" title="《我》—张国荣"></a>《我》—张国荣</h3><p>喜欢&lt;阿飞正传&gt;里的那个孤独倔强的他，像是在演绎自己<br>不同于梁朝伟—那忧郁的眼神似乎天生为王家卫独特的似是而非、若即若离的氛围而生<br>他只是一个孤傲的‘戏子’，倔强的演着最真实的自己—像只没有脚的鸟一直不停地在飞<br>他只是一个深情的歌者，勇敢地唱着“我就是我，是颜色不一样的烟火;天空开阔，要做最坚强的泡沫”<br>一如对生活，勇敢而坦白，谦卑而自信<br>每个人的一生都像一场烟火，总会有不一样的颜色<br>即便无人欣赏，也要骄傲的绽放<br>哪怕只是一粒吹弹即破的泡沫，也要坚强地在阳光的投影下释放着五彩斑斓的色彩<br>任雨点滴落轻敲我窗、任落叶纷飞填密梦想<br>依旧游觅他方，孑然怅惘<br>心有猛虎，方能细嗅蔷薇</p>
+<h3 id="《二十岁的眼泪》—张宇"><a href="#《二十岁的眼泪》—张宇" class="headerlink" title="《二十岁的眼泪》—张宇"></a>《二十岁的眼泪》—张宇</h3><p>偶尔间听到张宇唱起这首歌，沧桑的声音配着深邃的歌词，确实很有味道。<br>这样的歌是否也会让你想着二十岁的自己？<br>20岁的眼泪是青涩的，他没有三十岁的世故、四十岁的城府<br>20岁的眼泪是奢侈的，他没有三十岁的心酸、四十岁的沧桑<br>20岁的男人，不应该轻易再哭泣，因为你背负着理想与责任<br>20岁的男人，选择骄傲的抛开所有柔情的牵绊，开始流浪的旅程<br>路上会跌倒、会迷茫、会苦楚、会寂寞，会思念<br>坚强的男人会让苦楚深埋心底<br>温柔的男人会把寂寞写进歌里<br>痴情的男人会将思念写入诗里<br>等到40岁再相逢的时候我们再一起洒脱的笑说多年来无泪的伤痛<br>没有哭，只有笑——笑我们当年的荒谬<br>没有哭，只有笑——笑你当年留不住，留不住，就罢了！</p>
+<h3 id="《给自己的歌》—李宗盛"><a href="#《给自己的歌》—李宗盛" class="headerlink" title="《给自己的歌》—李宗盛"></a>《给自己的歌》—李宗盛</h3><p>满纸锐利，句句精辟<br>这是一首只看歌词就想听一辈子的歌<br>相比于《爱的代价》里的眷念、无奈，这首歌里多了一些豁达<br>也许这也是这个经时间发酵的老男人越来越有魅力的地方<br>时间是闷罐，人生如酒，酿的年头愈多，愈发醇香<br>林夕的词首重意境，李宗盛的词首重感觉—说故事、唱故事、听故事的感觉<br>同样，这首歌包含了一个男人回忆时所有的感觉（除了甜蜜）：<br>伤痛：旧爱的誓言像极了一个巴掌，每当你记起一句就挨一个耳光<br>感伤：可惜恋爱不像写歌，再认真也成不了风格<br>无奈：等你发现时间是贼了，它早已偷光你的选择<br>恨意：是不能原谅却无法阻挡，恨意在夜里翻墙是空空荡荡<br>害怕：然后好几年都问不得闻不得女人香<br>淡然：岁月你别催，该来的我不推，该还的还该给的我给<br>释然：想得却不可得，你奈人生何；想得却不可得，情爱里无智者<br>“想得却不可得，情爱里无智者”<br>理智了，便是交易，便是相亲时明码标价的婚姻，而不是爱情</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yelihui.com/2016/12/12/产品汪面试踩过的坑/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="叶立辉">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/100.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="时光小栈">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="时光小栈" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/12/12/产品汪面试踩过的坑/" itemprop="url">
+                  产品汪面试踩过的坑
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-12T23:34:42+08:00">
+                2016-12-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/经验分享/" itemprop="url" rel="index">
+                    <span itemprop="name">经验分享</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/pdxy.jpg" alt="产品经理"></p>
+<h2 id="亲身踩过的坑"><a href="#亲身踩过的坑" class="headerlink" title="亲身踩过的坑"></a>亲身踩过的坑</h2><h2 id="一、基础问题："><a href="#一、基础问题：" class="headerlink" title="一、基础问题："></a>一、基础问题：</h2><h3 id="1-产品经理的工作有哪些？"><a href="#1-产品经理的工作有哪些？" class="headerlink" title="1.产品经理的工作有哪些？"></a>1.产品经理的工作有哪些？</h3><p><img src="https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/pd_ass.png" alt="产品经理职能"><br>不解释，看图，虽说各公司各产品的JD都会有区别，不过这基本涵盖了大部分产品经理的工作。</p>
+<h3 id="2-你觉得产品经理需要哪些能力？"><a href="#2-你觉得产品经理需要哪些能力？" class="headerlink" title="2.你觉得产品经理需要哪些能力？"></a>2.你觉得产品经理需要哪些能力？</h3><p>(1)逻辑思维：产品经理需要设计功能的流程、界面及细节，需要考虑到方方面面的情况，所以需要有严密的逻辑思维能力<br>(2)沟通协作：产品经理是一个产品的核心，需要与形形色色的人打交道（UE、UI、研发、测试、运营、市场、老板），<br>   需要有很强的沟通能力，并且懂得相互之间如何协作如何配合。<br>(3)项目管理/推动：<br>(4)学习能力：首先产品经理是一个需要大量知识积累的岗位，这就要求了一个合格的产品必须有很全（不一定很深）的知识体系，<br>   你要懂一些技术知识：知道前端后台怎么运作的，知道一个APP从你脑子里走到用户手机里会有怎样的过程；<br>   你要懂运营、懂营销、懂设计、懂些用户心理学等等。<br>   其次，互联网的发展日新月异，若是不关注行业资讯，不去体验和学习，将会被淘汰。<br>(5)抗压能力：不管产品出了什么样的问题，产品经理都是第一责任人，向永远的背锅侠致敬！</p>
+<p>进阶回答：在说各项能力的时候，描述下通过什么样的锻炼加强了这种能力，最好说明自己在这方面的表现。</p>
+<h3 id="3-介绍一下自己做过的项目"><a href="#3-介绍一下自己做过的项目" class="headerlink" title="3.介绍一下自己做过的项目"></a>3.介绍一下自己做过的项目</h3><p>三个层次回答：<br>层次一：考察你具体做过的项目有哪些，主要职责是什么。这点比较简单，清晰简明的表述就行<br>层次二：你对这些项目的贡献。注意是贡献，不是职责，职责是要负责什么事，贡献是你的所做的事对于这个产品的意义何在？<br>比如你设计的XX功能上线后，用户增长了多少，使留存率增加了多少，这些增长超出平时增长幅度的多少？<br>层次三：自己从这些项目经验中学到了什么，踩过什么坑？获得了什么经验？这层考验的是你善于总结归纳，产品经理是一个需要不断踩坑、不断总结、不断思考的岗位</p>
+<h3 id="4-你觉得什么样的产品才能称为一个好的产品？"><a href="#4-你觉得什么样的产品才能称为一个好的产品？" class="headerlink" title="4.你觉得什么样的产品才能称为一个好的产品？"></a>4.你觉得什么样的产品才能称为一个好的产品？</h3><p>不多说了，网上已经有“标准答案”了：<br>(1)一个好的产品最最重要的是解决用户的需求<br>(2)一个好的产品要有不错的用户粘性，<br>(3)一个好的产品，要拥有不错的体验。</p>
+<p>说下自己的分析：<br>需求：解决用户需求是产品的核心价值，任你界面再美，体验再说，解决不了需求都是然并卵，想象一下用“饿了吗”订不了饭、用“滴滴”打不了车，这些产品还有意义吗？<br>粘性：这个粘性其实是用户是否经常会使用你，使用频次太低的产品要么你解决的需求是为需求（非刚需），要么产品有问题。<br>体验：简而言之，互联网时代，产品同质化严重，竞争太强，用户的选择太多了，没有好的体验很难留住用户（除了12306这种垄断性的产品，当然，其实12306也算不上是互联网产品）</p>
+<h2 id="二、进阶问题"><a href="#二、进阶问题" class="headerlink" title="二、进阶问题"></a>二、进阶问题</h2><h3 id="1-请说出你比较常用的产品中的槽点？"><a href="#1-请说出你比较常用的产品中的槽点？" class="headerlink" title="1.请说出你比较常用的产品中的槽点？"></a>1.请说出你比较常用的产品中的槽点？</h3><p>这个问题的回答分三个层次：<br>层次一：考验你平时是否有真正的关注产品，以及对产品的感觉怎么样，具体槽点是什么无所谓，但是请一定要注意其逻辑性，不要很容易的就被人打脸，尤其是在说大家都很常用的产品时（建议说小众的精品APP，这样面试官不好轻易反驳你），第二个注意的地方是尽量不要以用户的口吻“我觉得”等等，而是以一种客观的角度来评说这样的体验为什么不好，有哪些不便？有哪些干扰？<br>层次二：如果你以为这个问题仅仅是回答了就好了？关键在于分析该产品的产品经理这么做的背景和动机是什么？吐槽产品槽点后需分析用户的需求量，以及为什么这样做？<br>层次三：如果是你，怎么优化？</p>
+<p>面试坑：没有深度使用并去了解的产品不要轻易开口，不然会被面试官分分钟打脸，别问我为什么知道！</p>
+<h2 id="思考问题："><a href="#思考问题：" class="headerlink" title="思考问题："></a>思考问题：</h2><h3 id="2-工作中遇到最难的问题是什么？当时的解决方法是什么？如果现在复盘有什么更好的办法？-说这个例子为了提现你什么能力？"><a href="#2-工作中遇到最难的问题是什么？当时的解决方法是什么？如果现在复盘有什么更好的办法？-说这个例子为了提现你什么能力？" class="headerlink" title="2.工作中遇到最难的问题是什么？当时的解决方法是什么？如果现在复盘有什么更好的办法？(说这个例子为了提现你什么能力？)"></a>2.工作中遇到最难的问题是什么？当时的解决方法是什么？如果现在复盘有什么更好的办法？(说这个例子为了提现你什么能力？)</h3><h4 id="更新中……"><a href="#更新中……" class="headerlink" title="更新中……"></a>更新中……</h4>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yelihui.com/2016/12/10/从需求分析师到产品经理的转变/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="叶立辉">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/100.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="时光小栈">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="时光小栈" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/12/10/从需求分析师到产品经理的转变/" itemprop="url">
+                  从需求分析师到产品经理的转变
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-10T22:34:42+08:00">
+                2016-12-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/经验分享/" itemprop="url" rel="index">
+                    <span itemprop="name">经验分享</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/pd.jpg" alt="点睛之手"></p>
+<p>根据过往经验总结从需求分析师到产品经理的转变：</p>
+<h3 id="1-对于产品的热爱"><a href="#1-对于产品的热爱" class="headerlink" title="1.对于产品的热爱"></a>1.对于产品的热爱</h3><p>“热爱产品”听起来很虚，可能对有些人来说只是面试时的口头禅，但我觉得这是成为产品经理最大的前提，如果你发现自己对产品毫无兴趣，建议不要做这个。<br>一个产品汪，会对生活中的产品极度敏感，会有兴趣关注产品最新的功能、吐槽产品难用的地方，甚至会对一些比较完美的产品“吹毛求疵”。<br>真正热爱产品的表现通常是：<br>(1)遇到性感的产品会兴奋异常的强烈安利给朋友<br>(2)手机里总是下了各种各样的APP来体验<br>(3)忽然找同事说：“XX更新了，有XXX，你体验了吗？”<br>(4)爱吐槽：“XX这次更新的功能跟shi一样”，“XX越用体验越烂”<br>(5)关注最新的互联网资讯及热点事件，并参与探讨与思考<br>（比如今年的魏则西事件、百度地图偷流量、阿里巴巴月饼、滴滴优步合并、支付宝“校园日记”等等）<br>(6)收集各种产品类的经典书籍，乐于反省并补全自己的知识体系<br>(7)对生活中的各种产品，喜欢问为什么？并思考如果是自己，有什么办法可以优化？（哪怕是不专业的意见）<br>总之一定要热爱产品，才能调动出最大的动力和激情，也能在产品经理的工作中享受到这份满足和成就感。</p>
+<h3 id="2-职能上的要求"><a href="#2-职能上的要求" class="headerlink" title="2.职能上的要求"></a>2.职能上的要求</h3><p>首先理清楚需求分析师与产品经理的职责的差异。（红色为共同点）<br><img src="https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/pd1.png" alt="需求分析师与产品经理的职责的差异"><br>总结来说，产品经理的工作包含了很大一部分需求分析的工作，但是产品经理的职责更广，打交道的人更多，<br>产品经理的工作涵盖了产品的整个生命周期，换言之你就是产品的爹妈，能真正决定产品成败的那个人。</p>
+<p>而我们重点关注的产品经理的职能如下：（以下是大致职能，不同公司的产品经理所做的工作有很大差异，要求和着重点也不一样）<br><img src="https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/pd_ass.png" alt="产品经理职能"></p>
+<p>再引用一张图详细说明产品经理的具体工作：<br><img src="https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/pd_work.png" alt="产品经理具体工作"><br>PS：感谢制作这张工作实例图的不知名大神。</p>
+<h3 id="3-思维方式上的跨越"><a href="#3-思维方式上的跨越" class="headerlink" title="3.思维方式上的跨越"></a>3.思维方式上的跨越</h3><p>从需求分析到产品经理的跨越：<br>(1)调研需求-&gt;挖掘痛点<br>(2)需求分析-&gt;产品规划<br>(3)需求推进-&gt;产品管理<br>(4)关注功能-&gt;关注产品</p>
+<h3 id="4-行业资讯上的关注"><a href="#4-行业资讯上的关注" class="headerlink" title="4.行业资讯上的关注"></a>4.行业资讯上的关注</h3><p>如果是传统行业的需求分析师，转做互联网产品经理，建议多关注互联网资讯。<br>我比较常逛的互联网资讯类媒体：虎嗅、钛媒体、36氪<br>比较爱阅读的地方：人人都是产品经理、知乎、简书。</p>
+<h3 id="5-工具技能上的拓展"><a href="#5-工具技能上的拓展" class="headerlink" title="5.工具技能上的拓展"></a>5.工具技能上的拓展</h3><p>这两个职业用到的工具有点类似：office、Axure、visio，不过产品经理会的可能要更杂一点，比如脑图，甚至要会点PS，懂些UE、UI方面的知识等等，技多不压身。<br>不过建议工具用熟练就行，不必太纠结于工具的一些细节和很深的技巧。</p>
+<h3 id="6-知识与经验的积累"><a href="#6-知识与经验的积累" class="headerlink" title="6.知识与经验的积累"></a>6.知识与经验的积累</h3><p>产品经理是一个需要大量知识积累的工作，以下书籍推荐：<br>入门类书籍：《人人都是产品经理》、《结网》<br>（这二本产品经理入门书的角度不一样，读完这二本书基本知道产品经理是干吗的。）<br>团队协作：《启示录》<br>用户体验/交互设计：《用户体验要素》、《简约至上》<br>数据分析：《精益数据分析》<br>行业发展：《浪潮之巅》</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yelihui.com/2014/10/29/营销学习笔记/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="叶立辉">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/100.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="时光小栈">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="时光小栈" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2014/10/29/营销学习笔记/" itemprop="url">
+                  营销学习笔记
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2014-10-29T22:34:42+08:00">
+                2014-10-29
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/经验分享/" itemprop="url" rel="index">
+                    <span itemprop="name">经验分享</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/yxxxbj.jpg" alt="营销"></p>
+<h3 id="1-推销与销售的区别："><a href="#1-推销与销售的区别：" class="headerlink" title="1.推销与销售的区别："></a>1.推销与销售的区别：</h3><p>推销：用产品去说服客服认同它的价值，从而促成成交，强调过程<br>销售：通过任何方式把产品销售给客户，强调结果</p>
+<h3 id="2-为何推销越来越难做："><a href="#2-为何推销越来越难做：" class="headerlink" title="2.为何推销越来越难做："></a>2.为何推销越来越难做：</h3><p>(1)信息越来越对称，用户能瞬间掌握大量的产品信息（以往的信息是不对称的，客户仅仅通过广告和销售人员的描述来获取）<br>(2)获得商品渠道的多样性，线上、线下（过往的商品是供不应求）</p>
+<h3 id="3-一个合格的创业者，应该是一个擅长卖货的产品经理，而不是一个不了解产品的销售。"><a href="#3-一个合格的创业者，应该是一个擅长卖货的产品经理，而不是一个不了解产品的销售。" class="headerlink" title="3.一个合格的创业者，应该是一个擅长卖货的产品经理，而不是一个不了解产品的销售。"></a>3.一个合格的创业者，应该是一个擅长卖货的产品经理，而不是一个不了解产品的销售。</h3><h3 id="4-什么情况下推销员的作用会被削弱："><a href="#4-什么情况下推销员的作用会被削弱：" class="headerlink" title="4.什么情况下推销员的作用会被削弱："></a>4.什么情况下推销员的作用会被削弱：</h3><p>(1)客户在熟知产品信息的情况下<br>(2)当产品有具体参数的时候<br>(3)当产品可以通过体验感知好坏时<br>(4)当渠道本身有着很高的可信度时<br>(5)当品牌有着很高的可信度时</p>
+<h3 id="5-什么情况下推销员的能发挥最大的作用："><a href="#5-什么情况下推销员的能发挥最大的作用：" class="headerlink" title="5.什么情况下推销员的能发挥最大的作用："></a>5.什么情况下推销员的能发挥最大的作用：</h3><p>(1)产品没有具体参数时<br>(2)产品只能通过消费过程体验<br>(3)客户不了解产品的情况下（本身不关心产品、知识文化水平不高、中老年人）<br>(4)比较冷门的领域，即使在互联网上信息也很匮乏<br>(5)推广新生事物</p>
+<h3 id="6-推销阶段"><a href="#6-推销阶段" class="headerlink" title="6.推销阶段"></a>6.推销阶段</h3><p>(1)无推销时期（计划经济时代）<br>(2)产品推销时期<br>(3)需求推销时期：根据客户需求定制产品，每个人群都有不同的需求倾向，很多时候人的需求不是单一，分主次<br>     误区：<br>质量是客户需求（很多时候质量已经成了基本标准，而不是卖点）<br>功能是客户需求（客户需要的功能才是需求）<br>认为对客户有用的是客户需求（有用，但不一定需要，也不一定会为其买单）</p>
+<pre><code>客户真正的需求：
+</code></pre><p>质量好的未必是客户的需求，只有客户需求的质量才是客户的需求<br>功能强大未必是客户的需求，只有客户需要的功能才是需求<br>对客户有用的未必是客户的需求，只有客户需要的才是需求（能消费起的欲望才算需求）</p>
+<h3 id="7-创业要懂心理学"><a href="#7-创业要懂心理学" class="headerlink" title="7.创业要懂心理学"></a>7.创业要懂心理学</h3><p>(1)首因效应：主要体现在先入为主上，这种先入为主给人带来的第一印象是鲜明的、强烈的、过目难忘的<br>第一印象非常重要：50%来自外贸，40%来自声音（音色、音调、语速等等），10%来自言行举止<br>提升自己的穿衣品味、礼仪礼节，留下良好的第一印象非常重要。</p>
+<p>(2)末因效应：人在记忆一系列事物时，对末尾部分的记忆要优于中间部分的记忆，尤其在记忆前后间隔时间<br>越长的情况下，这种末因效应越明显，因为越久远的记忆越容易被模糊掉，末因效应也被称为近因效应。<br>最后的印象往往是最强烈的，可以冲淡之前所产生的各种因素。</p>
+<p>提醒：售后必须做好</p>
+<p>比如面试结尾这样考验候选人的心理素质和临场应变能力：<br>           你已经回答了我们所有的问题，可我们的评委对你回答并不是十分满意，对此，你有什么样的看法？</p>
+<h3 id="8-光环陷阱（本质上是以偏概全的认知错误）"><a href="#8-光环陷阱（本质上是以偏概全的认知错误）" class="headerlink" title="8.光环陷阱（本质上是以偏概全的认知错误）"></a>8.光环陷阱（本质上是以偏概全的认知错误）</h3><p>即一个的某种品质或一个物品的某种特性，给人以非常强烈的印象，在这种印象的影响下，人们对这个人的<br>其他品质或这个物品的其他特性都会给予偏向这个印象的评价。</p>
+<p>更新中……</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yelihui.com/2014/08/23/2014-8-23-有一天，你会遇到那么一个人/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="叶立辉">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/100.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="时光小栈">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="时光小栈" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2014/08/23/2014-8-23-有一天，你会遇到那么一个人/" itemprop="url">
+                  有一天，你会遇到那么一个人
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2014-08-23T01:04:42+08:00">
+                2014-08-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/散文日志/" itemprop="url" rel="index">
+                    <span itemprop="name">散文日志</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/xldl.jpg" alt="相恋到老"></p>
+<h2 id="时光不经意间走远，我们的梦却还在远方"><a href="#时光不经意间走远，我们的梦却还在远方" class="headerlink" title="时光不经意间走远，我们的梦却还在远方"></a><em>时光不经意间走远，我们的梦却还在远方</em></h2><h3 id="《我》—张国荣"><a href="#《我》—张国荣" class="headerlink" title="《我》—张国荣"></a>《我》—张国荣</h3><p>喜欢&lt;阿飞正传&gt;里的那个孤独倔强的他，像是在演绎自己</p>
+<p>不同于梁朝伟—那忧郁的眼神似乎天生为王家卫独特的似是而非、若即若离的氛围而生</p>
+<p>他只是一个孤傲的‘戏子’，倔强的演着最真实的自己—像只没有脚的鸟一直不停地在飞</p>
+<p>他只是一个深情的歌者，勇敢地唱着“我就是我，是颜色不一样的烟火;天空开阔，要做最坚强的泡沫”</p>
+<p>一如对生活，勇敢而坦白，谦卑而自信</p>
+<p>每个人的一生都像一场烟火，总会有不一样的颜色</p>
+<p>即便无人欣赏，也要骄傲的绽放</p>
+<p>哪怕只是一粒吹弹即破的泡沫，也要坚强地在阳光的投影下释放着五彩斑斓的色彩</p>
+<p>任雨点滴落轻敲我窗、任落叶纷飞填密梦想</p>
+<p>依旧游觅他方，孑然怅惘</p>
+<p>心有猛虎，方能细嗅蔷薇</p>
+<h3 id="《二十岁的眼泪》—张宇"><a href="#《二十岁的眼泪》—张宇" class="headerlink" title="《二十岁的眼泪》—张宇"></a>《二十岁的眼泪》—张宇</h3><p>偶尔间听到张宇唱起这首歌，沧桑的声音配着深邃的歌词，确实很有味道。</p>
+<p>这样的歌是否也会让你想着二十岁的自己？</p>
+<p>20岁的眼泪是青涩的，他没有三十岁的世故、四十岁的城府</p>
+<p>20岁的眼泪是奢侈的，他没有三十岁的心酸、四十岁的沧桑</p>
+<p>20岁的男人，不应该轻易再哭泣，因为你背负着理想与责任</p>
+<p>20岁的男人，选择骄傲的抛开所有柔情的牵绊，开始流浪的旅程</p>
+<p>路上会跌倒、会迷茫、会苦楚、会寂寞，会思念</p>
+<p>坚强的男人会让苦楚深埋心底</p>
+<p>温柔的男人会把寂寞写进歌里</p>
+<p>痴情的男人会将思念写入诗里</p>
+<p>等到40岁再相逢的时候我们再一起洒脱的笑说多年来无泪的伤痛</p>
+<p>没有哭，只有笑——笑我们当年的荒谬</p>
+<p>没有哭，只有笑——笑你当年留不住，留不住，就罢了！</p>
+<h3 id="《给自己的歌》—李宗盛"><a href="#《给自己的歌》—李宗盛" class="headerlink" title="《给自己的歌》—李宗盛"></a>《给自己的歌》—李宗盛</h3><p>满纸锐利，句句精辟</p>
+<p>这是一首只看歌词就想听一辈子的歌</p>
+<p>相比于《爱的代价》里的眷念、无奈，这首歌里多了一些豁达</p>
+<p>也许这也是这个经时间发酵的老男人越来越有魅力的地方</p>
+<p>时间是闷罐，人生如酒，酿的年头愈多，愈发醇香</p>
+<p>林夕的词首重意境，李宗盛的词首重感觉—说故事、唱故事、听故事的感觉</p>
+<p>同样，这首歌包含了一个男人回忆时所有的感觉（除了甜蜜）：</p>
+<p>伤痛：旧爱的誓言像极了一个巴掌，每当你记起一句就挨一个耳光</p>
+<p>感伤：可惜恋爱不像写歌，再认真也成不了风格</p>
+<p>无奈：等你发现时间是贼了，它早已偷光你的选择</p>
+<p>恨意：是不能原谅却无法阻挡，恨意在夜里翻墙是空空荡荡</p>
+<p>害怕：然后好几年都问不得闻不得女人香</p>
+<p>淡然：岁月你别催，该来的我不推，该还的还该给的我给</p>
+<p>释然：想得却不可得，你奈人生何；想得却不可得，情爱里无智者</p>
+<p>“想得却不可得，情爱里无智者”</p>
+<p>理智了，便是交易，便是相亲时明码标价的婚姻，而不是爱情</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yelihui.com/2013/12/28/海棠无香/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="叶立辉">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/100.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="时光小栈">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="时光小栈" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2013/12/28/海棠无香/" itemprop="url">
+                  海棠无香
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2013-12-28T12:34:42+08:00">
+                2013-12-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/散文日志/" itemprop="url" rel="index">
+                    <span itemprop="name">散文日志</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/htwx.jpg" alt="海棠"></p>
+<p>憔悴幽花剧可怜，斜阳院落晚秋天。<br>词人老大风情减，犹对残红一怅然。<br>                            《秋海棠》—纪昀</p>
+<p>纪晓岚故居阅微草堂里有株海棠怯生生的立在院子的东北角，<br>伴着海棠树的是一尊婢女模样的塑像，手里拿了把扇子。海棠是纪晓岚亲手种植——为了怀念文鸾。<br>纪晓岚初识文鸾时，文鸾不过才十叁岁，是他四叔家的婢女。<br>文鸾温柔善良、聪慧美丽，两人又年纪相彷，常在四叔家的海棠树下嬉戏。<br>妾弄青梅，郎骑竹马，相知相恋的两人在海棠树下许下誓言、互订终身，约好纪晓岚取得功名后回乡迎娶。<br>谁知纪晓岚科考不顺，几次应试却都名落孙山，一直等到二十四岁那年才终于高中解元，<br>他并未忘记当初的誓约，立即托人到文鸾家提亲，但文鸾父亲趁机狮子开口需索巨额财礼，亲事因此耽搁。<br>文鸾并不知道父亲从中作梗，以为纪晓岚早已将誓言忘得一干二净，从此忧思成疾，日渐消瘦，终至香消玉殒。<br>纪晓岚悲痛欲绝，便在这里种下海棠，以念故人。<br>很多年后的一个夏天，纪晓岚在树下假寐时梦见文鸾翩然走来，<br>相对无语——纵使相逢应不识，尘满面，鬓如霜。醒来后感慨万千，写下了这首《秋海棠》。</p>
+<p>位极人臣、学贯古今的纪大学士尚且没能决定自己的情事，人力终究渺小，<br>总以为两情相悦便能相伴终老，却不知世界太过沧桑多变、庞杂纷扰，又岂能事事如愿？<br>纪晓岚倒还罢了，至少颇得乾隆和嘉庆赏识，文才所能致用，修书谋事、安邦定国，实现了文人的终极梦想，<br>可徐文长就比较悲催了，同样的才思敏捷，同样的文坛领袖，却始终郁郁不得志，到临死前家里连一铺席子都没有，实在够凄惨。<br>男人的梦想无非这二种，一为情，二为业。落寞不得者，自古皆有。<br>郁郁此生缭，亘古自难消！<br>张爱玲说人生有三恨：一恨海棠无香,二恨鲥鱼多刺,三恨红楼梦未完。<br>艳冠群芳的海棠花即便娇艳美丽，却尚且没有迷人的芳香，沧海一粟又能奢望什么？<br>只是人活在世上，总该为些什么努力，尽人事后方可听天命。<br>或醉、或笑——得意尽欢、落魄旷达<br>或痴、或傻——多情坦荡，长情落寞<br>纵使海棠无香，也必自有芬芳。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yelihui.com/2013/02/12/西游旧梦/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="叶立辉">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/100.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="时光小栈">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="时光小栈" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2013/02/12/西游旧梦/" itemprop="url">
+                  西游旧梦
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2013-02-12T12:34:42+08:00">
+                2013-02-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/音乐影评/" itemprop="url" rel="index">
+                    <span itemprop="name">音乐影评</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/xiyou.jpg" alt="西游降魔"></p>
+<p>我想大过年还愿意跑去电影院看它的人大多是抱着怀旧的心情去重温下以前的感觉——我也一样。</p>
+<p>但通篇看来这部电影确实不怎么样，无非又是些切合现今网络热潮的恶搞，一些啼笑皆非的囧况，让人印象深刻的只有那些吸引眼球的3D特效，唯一的亮点是星爷为《一生所爱》新作的词：<br>“愿去等你漂泊、 白云外，痛爱、让人悲哀，在世上，命运不能更改”若不是星爷这块金字招牌，这部电影的票房至少要去掉一个零。跟那被奉为神作的《大话西游》比起来更是犹如云泥之别，但他创造的巅峰连他自己都无法超越，我们还能奢求什么？</p>
+<p>我想《大话西游》之所以经典不仅仅是因为那令人爆笑到喷饭的对白、搞怪的场景、曲折离奇的情节，更是因为刻画几位主角间无厘头却又真挚的情愫，缠绵悱恻、爱恨交织；还有那些起初听起来好笑、接着若有所思、再然后深刻思考的台词，以及对时空的探索和对人性的思考。</p>
+<p>它不像王家卫的电影，情感总是徘徊在似是而非、若即若离之间，它表达情感的方式是直白的、强烈的，并不是每个人都有机会通过月光宝盒穿越时空来拯救自己的爱人，那样的坚定执着、那样的义无反顾，即使结局依旧让人抱憾终身，但仍让人觉得唯美，残缺的未必不是美好的，不是么？</p>
+<p>很欣赏紫霞的开场白：“现在我郑重宣布，这座山上所有的东西都是我的，包括你。”<br>那样的铿锵有力，那样的气贯云霄。</p>
+<p>但其实，这世界上所有的东西都不属于你，包括你自己。因为年轻，总是觉得能把握一切，但最后却什么都抓不住，信念和理想那么脆弱，无法直面现实的琐碎与坚韧。就像至尊宝在寻找白晶晶的过程中遇上了给他三颗痣的紫霞，他拒绝了紫霞，以为自己还爱着白晶晶，见到白晶晶后又发现原来真正爱的却是紫霞，</p>
+<p>上天似乎总爱与我们开这样的玩笑，寻寻觅觅中忘了自己寻找的是什么。清朝诗人沈德潜曾说：越是有慧根的人，越是迷情最深。<br>因为用情深所以放不开，因为放不开只得继续寻觅，情之一字所以颠倒世界，才之一字，所以粉饰乾坤，大概就是这个道理。<br>仔细想想，我们面对的其实是一部痛彻心肺的喜剧，垂髫之年是看的是闹剧，而等到弱冠时看的是悲剧，深入骨髓的哀和痛。</p>
+<p>直到最后夕阳武士看着孙悟空的背影说出那句“他好像一只狗啊！”为全剧画下一个完美的句点，简直像是西门吹雪的剑，犀利、精准，一语中的!<br>其实男人活在世上多像一条带着锁链的狗，被世俗所牵引，被现实所羁绊，我们在不知不觉中扮演着属于自己的角色，或者说是这个世界需要的角色。</p>
+<p>也许终有一天我们每个人都会戴上自己的“紧箍咒”，禁锢昔日的梦想，圈住棱角分明的个性，来完成已经被安排好的任务，这是一种解脱还是一种悲哀？</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/100.jpg"
+               alt="叶立辉" />
+          <p class="site-author-name" itemprop="name">叶立辉</p>
+          <p class="site-description motion-element" itemprop="description">stay hungry stay foolish</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">17</span>
+              <span class="site-state-item-name">posts</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">叶立辉</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
-<script src="/js/insight.js"></script>
-
-</div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-        <div class="container">
-            <div class="main-body container-inner" style="margin-top:0px;">
-                <div class="main-body-inner" >
-                    <section id="main">
-                        <div class="main-body-header">
-    <h1 class="header">
-    
-    <em class="page-title-link" data-url="home">主页</em>
-    </h1>
-</div>
-                        <div class="main-body-content">
-                            
-
-    
-    
-        
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2017" class="archive-year"><i class="icon fa fa-calendar-o"></i>2017</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2017/12/19/每个人的8和24/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/824.jpg)" alt="每个人的8和24" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            <a class="article-category-link" href="/categories/散文日志/">散文日志</a>
-            </p>
-            <p class="date"><time datetime="2017-12-19T15:13:42.000Z" itemprop="datePublished">2017-12-19</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2017/12/19/每个人的8和24/">每个人的8和24</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-每个人的8和24每个人都有自己的8和248是鲜衣怒马、意气风发的轻狂年少24是历经磨难、坚韧不屈的稳重成熟今天斯台普斯退役了你的8和24时间也会慢慢沉淀我们的8和24
-曾经很害怕，也不敢想象会在斯台普斯再也看不见你飞翔的身影那个轻狂的8号， 那个执着的24号，那个镂刻在记忆里的黑曼巴关于你的记忆碎片太多，仿似都无法聚集依稀记得你爆砍81分后手指苍穹，没能亲眼见证一直是我的遗憾依稀记得你绝杀热火后
-        </p>
-    </div>
-</article>
-    
-
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2017/08/18/2017-8-18-春夏秋冬/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/cxqd.jpg)" alt="春夏秋冬" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            <a class="article-category-link" href="/categories/散文日志/">散文日志</a>
-            </p>
-            <p class="date"><time datetime="2017-08-17T17:40:42.000Z" itemprop="datePublished">2017-08-18</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2017/08/18/2017-8-18-春夏秋冬/">春夏秋冬</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-春夏秋冬再次听到这首明媚的歌，已不觉间在帝都历经三年也是与你共同度过的三个春夏秋冬依稀记得四年前在天桥上望见你嫣红的背影后来写成婚礼上唱给你的那首歌《依恋》：“天桥上默默的伫立，守候潮涌般的思念那一抹嫣红的背影，刻着相依的那一年”我不知道那一刻能否感动时光，只希望那一刻能感动你
-“深秋中的你填密我梦想，就像落叶飞、轻敲我窗”微凉的秋天，在星城遇见你你在身边，秋风微凉也无碍橘子洲头的烟花，定格了那
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-    
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2017/01/01/2017-1-1-那些写给岁月的歌/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/zgr.jpg)" alt="那些写给岁月的歌" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            <a class="article-category-link" href="/categories/音乐影评/">音乐影评</a>
-            </p>
-            <p class="date"><time datetime="2016-12-31T17:04:42.000Z" itemprop="datePublished">2017-01-01</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2017/01/01/2017-1-1-那些写给岁月的歌/">那些写给岁月的歌</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-时光不经意间走远，我们的梦却还在远方《我》—张国荣喜欢&lt;阿飞正传&gt;里的那个孤独倔强的他，像是在演绎自己
-不同于梁朝伟—那忧郁的眼神似乎天生为王家卫独特的似是而非、若即若离的氛围而生
-他只是一个孤傲的‘戏子’，倔强的演着最真实的自己—像只没有脚的鸟一直不停地在飞
-他只是一个深情的歌者，勇敢地唱着“我就是我，是颜色不一样的烟火;天空开阔，要做最坚强的泡沫”
-一如对生活，勇敢而坦白，谦卑而
-        </p>
-    </div>
-</article>
-    
-
-    
-    
-        
-            </div></section>
-        
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2016" class="archive-year"><i class="icon fa fa-calendar-o"></i>2016</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2016/12/12/产品汪面试踩过的坑/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/pdxy.jpg)" alt="产品汪面试踩过的坑" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            <a class="article-category-link" href="/categories/经验分享/">经验分享</a>
-            </p>
-            <p class="date"><time datetime="2016-12-12T15:34:42.000Z" itemprop="datePublished">2016-12-12</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2016/12/12/产品汪面试踩过的坑/">产品汪面试踩过的坑</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-亲身踩过的坑一、基础问题：1.产品经理的工作有哪些？不解释，看图，虽说各公司各产品的JD都会有区别，不过这基本涵盖了大部分产品经理的工作。
-2.你觉得产品经理需要哪些能力？(1)逻辑思维：产品经理需要设计功能的流程、界面及细节，需要考虑到方方面面的情况，所以需要有严密的逻辑思维能力(2)沟通协作：产品经理是一个产品的核心，需要与形形色色的人打交道（UE、UI、研发、测试、运营、市场、老板），  
-        </p>
-    </div>
-</article>
-    
-
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2016/12/10/从需求分析师到产品经理的转变/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/pd.jpg)" alt="从需求分析师到产品经理的转变" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            <a class="article-category-link" href="/categories/经验分享/">经验分享</a>
-            </p>
-            <p class="date"><time datetime="2016-12-10T14:34:42.000Z" itemprop="datePublished">2016-12-10</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2016/12/10/从需求分析师到产品经理的转变/">从需求分析师到产品经理的转变</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-根据过往经验总结从需求分析师到产品经理的转变：
-1.对于产品的热爱“热爱产品”听起来很虚，可能对有些人来说只是面试时的口头禅，但我觉得这是成为产品经理最大的前提，如果你发现自己对产品毫无兴趣，建议不要做这个。一个产品汪，会对生活中的产品极度敏感，会有兴趣关注产品最新的功能、吐槽产品难用的地方，甚至会对一些比较完美的产品“吹毛求疵”。真正热爱产品的表现通常是：(1)遇到性感的产品会兴奋异常的强烈安
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-    
-    
-        
-            </div></section>
-        
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2014" class="archive-year"><i class="icon fa fa-calendar-o"></i>2014</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2014/10/29/营销学习笔记/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/yxxxbj.jpg)" alt="营销学习笔记" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            <a class="article-category-link" href="/categories/经验分享/">经验分享</a>
-            </p>
-            <p class="date"><time datetime="2014-10-29T14:34:42.000Z" itemprop="datePublished">2014-10-29</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2014/10/29/营销学习笔记/">营销学习笔记</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-1.推销与销售的区别：推销：用产品去说服客服认同它的价值，从而促成成交，强调过程销售：通过任何方式把产品销售给客户，强调结果
-2.为何推销越来越难做：(1)信息越来越对称，用户能瞬间掌握大量的产品信息（以往的信息是不对称的，客户仅仅通过广告和销售人员的描述来获取）(2)获得商品渠道的多样性，线上、线下（过往的商品是供不应求）
-3.一个合格的创业者，应该是一个擅长卖货的产品经理，而不是一个不了解产
-        </p>
-    </div>
-</article>
-    
-
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2014/08/23/2014-8-23-有一天，你会遇到那么一个人/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/xldl.jpg)" alt="有一天，你会遇到那么一个人" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            <a class="article-category-link" href="/categories/散文日志/">散文日志</a>
-            </p>
-            <p class="date"><time datetime="2014-08-22T17:04:42.000Z" itemprop="datePublished">2014-08-23</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2014/08/23/2014-8-23-有一天，你会遇到那么一个人/">有一天，你会遇到那么一个人</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-时光不经意间走远，我们的梦却还在远方《我》—张国荣喜欢&lt;阿飞正传&gt;里的那个孤独倔强的他，像是在演绎自己
-不同于梁朝伟—那忧郁的眼神似乎天生为王家卫独特的似是而非、若即若离的氛围而生
-他只是一个孤傲的‘戏子’，倔强的演着最真实的自己—像只没有脚的鸟一直不停地在飞
-他只是一个深情的歌者，勇敢地唱着“我就是我，是颜色不一样的烟火;天空开阔，要做最坚强的泡沫”
-一如对生活，勇敢而坦白，谦卑而
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-    
-    
-        
-            </div></section>
-        
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2013" class="archive-year"><i class="icon fa fa-calendar-o"></i>2013</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2013/12/28/海棠无香/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/htwx.jpg)" alt="海棠无香" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            <a class="article-category-link" href="/categories/散文日志/">散文日志</a>
-            </p>
-            <p class="date"><time datetime="2013-12-28T04:34:42.000Z" itemprop="datePublished">2013-12-28</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2013/12/28/海棠无香/">海棠无香</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-憔悴幽花剧可怜，斜阳院落晚秋天。词人老大风情减，犹对残红一怅然。                            《秋海棠》—纪昀
-纪晓岚故居阅微草堂里有株海棠怯生生的立在院子的东北角，伴着海棠树的是一尊婢女模样的塑像，手里拿了把扇子。海棠是纪晓岚亲手种植——为了怀念文鸾。纪晓岚初识文鸾时，文鸾不过才十叁岁，是他四叔家的婢女。文鸾温柔善良、聪慧美丽，两人又年纪相彷，常在四叔家的海棠树下嬉戏
-        </p>
-    </div>
-</article>
-    
-
-    
-    
-    
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2013/02/12/西游旧梦/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/xiyou.jpg)" alt="西游旧梦" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            <a class="article-category-link" href="/categories/音乐影评/">音乐影评</a>
-            </p>
-            <p class="date"><time datetime="2013-02-12T04:34:42.000Z" itemprop="datePublished">2013-02-12</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2013/02/12/西游旧梦/">西游旧梦</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-            
-我想大过年还愿意跑去电影院看它的人大多是抱着怀旧的心情去重温下以前的感觉——我也一样。
-但通篇看来这部电影确实不怎么样，无非又是些切合现今网络热潮的恶搞，一些啼笑皆非的囧况，让人印象深刻的只有那些吸引眼球的3D特效，唯一的亮点是星爷为《一生所爱》新作的词：“愿去等你漂泊、 白云外，痛爱、让人悲哀，在世上，命运不能更改”若不是星爷这块金字招牌，这部电影的票房至少要去掉一个零。跟那被奉为神作的《大话
-        </p>
-    </div>
-</article>
-    
-        </div>
-    
-
-    
-    
-        
-            </div></section>
-        
-        
-        <section class="archives-wrap">
-            <div class="archive-year-wrap">
-                <a href="/archives/2012" class="archive-year"><i class="icon fa fa-calendar-o"></i>2012</a>
-            </div>
-            <div class="archives">
-    
-    
-    
-        <div class="article-row">
-    
-        <article class="article article-summary">
-    <div class="article-summary-inner">
-        
-        <a href="/2012/04/11/2012-4-12-2012-谁与谁的泰坦尼克？/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/titanic.jpg)" alt="2012,谁与谁的泰坦尼克？" class="thumbnail-image"></span>
-    
-    
-        
-<span class="comment-counter">
-    <i class="fa fa-comments-o"></i>
-    
-</span>
-
-    
-</a>
-
-        
-        <div class="article-meta">
-            <p class="category">
-            <a class="article-category-link" href="/categories/音乐影评/">音乐影评</a>
-            </p>
-            <p class="date"><time datetime="2012-04-11T15:04:42.000Z" itemprop="datePublished">2012-04-11</time></p>
-        </div>
-        
-    
-        <h1 class="article-title" itemprop="name">
-        <a href="/2012/04/11/2012-4-12-2012-谁与谁的泰坦尼克？/">2012,谁与谁的泰坦尼克？</a>
-        </h1>
-    
-
-        <p class="article-excerpt">
-              2012，据说是世界末日的这一年，泰坦尼克时隔十五年后再次袭来。  十五年前一起看过泰坦尼克号的情侣是幸福的，他们生在一个那样的年代，那样一个还有真诚、感动与梦想的年代，  那时的爱情还不是奢侈品，不用总活在对过去的遗憾和未来的忧虑里。  而当年一起看过这部电影的情侣如果还有机会在十五年后的现在牵手走进影院重温老旧的梦，无疑，他们是幸运的。  听说陈升以前做过一件特别煽情的事，他提前一年预售自
-        </p>
-    </div>
-</article>
-    
 
 
-    </div></section>
 
 
-    <nav id="page-nav">
-        <span class="pages">第 1 页，共 2 页</span>
-        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">&raquo;</a>
-    </nav>
 
 
-                        </div>
-                    </section>
-                    <aside id="sidebar">
-    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
-    <div class="sidebar-top">
-        <p>关注我 :</p>
-        <ul class="social-links">
-            
-                
-                <li>
-                    <a class="social-tooltip" title="google-plus" href="/" target="_blank">
-                        <i class="icon fa fa-google-plus"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="github" href="https://github.com/ppoffice/hexo-theme-hueman" target="_blank">
-                        <i class="icon fa fa-github"></i>
-                    </a>
-                </li>
-                
-            
-                
-                <li>
-                    <a class="social-tooltip" title="rss" href="/" target="_blank">
-                        <i class="icon fa fa-rss"></i>
-                    </a>
-                </li>
-                
-            
-        </ul>
-    </div>
-    
-    <div class="widgets-container">
-        
-            
-                
-    <div class="widget-wrap">
-        <h3 class="widget-title">最新文章</h3>
-        <div class="widget">
-            <ul id="recent-post" class="">
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2017/12/19/每个人的8和24/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/824.jpg)" alt="每个人的8和24" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/散文日志/">散文日志</a></p>
-                            <p class="item-title"><a href="/2017/12/19/每个人的8和24/" class="title">每个人的8和24</a></p>
-                            <p class="item-date"><time datetime="2017-12-19T15:13:42.000Z" itemprop="datePublished">2017-12-19</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2017/08/18/2017-8-18-春夏秋冬/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/cxqd.jpg)" alt="春夏秋冬" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/散文日志/">散文日志</a></p>
-                            <p class="item-title"><a href="/2017/08/18/2017-8-18-春夏秋冬/" class="title">春夏秋冬</a></p>
-                            <p class="item-date"><time datetime="2017-08-17T17:40:42.000Z" itemprop="datePublished">2017-08-18</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2017/01/01/2017-1-1-那些写给岁月的歌/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/zgr.jpg)" alt="那些写给岁月的歌" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/音乐影评/">音乐影评</a></p>
-                            <p class="item-title"><a href="/2017/01/01/2017-1-1-那些写给岁月的歌/" class="title">那些写给岁月的歌</a></p>
-                            <p class="item-date"><time datetime="2016-12-31T17:04:42.000Z" itemprop="datePublished">2017-01-01</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2016/12/12/产品汪面试踩过的坑/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/pdxy.jpg)" alt="产品汪面试踩过的坑" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/经验分享/">经验分享</a></p>
-                            <p class="item-title"><a href="/2016/12/12/产品汪面试踩过的坑/" class="title">产品汪面试踩过的坑</a></p>
-                            <p class="item-date"><time datetime="2016-12-12T15:34:42.000Z" itemprop="datePublished">2016-12-12</time></p>
-                        </div>
-                    </li>
-                
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2016/12/10/从需求分析师到产品经理的转变/" class="thumbnail">
-    
-    
-        <span style="background-image:url(https://github.com/yelihui1314/yelihui1314.github.io/raw/master/images/pd.jpg)" alt="从需求分析师到产品经理的转变" class="thumbnail-image"></span>
-    
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"><a class="article-category-link" href="/categories/经验分享/">经验分享</a></p>
-                            <p class="item-title"><a href="/2016/12/10/从需求分析师到产品经理的转变/" class="title">从需求分析师到产品经理的转变</a></p>
-                            <p class="item-date"><time datetime="2016-12-10T14:34:42.000Z" itemprop="datePublished">2016-12-10</time></p>
-                        </div>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
-
-            
-                
-    <div class="widget-wrap widget-list">
-        <h3 class="widget-title">分类</h3>
-        <div class="widget">
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/原创诗词/">原创诗词</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/散文日志/">散文日志</a><span class="category-list-count">6</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/经验分享/">经验分享</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/音乐影评/">音乐影评</a><span class="category-list-count">5</span></li></ul>
-        </div>
-    </div>
 
 
-            
-                
-    <div class="widget-wrap widget-float">
-        <h3 class="widget-title">标签</h3>
-        <div class="widget tagcloud">
-            <a href="/tags/互联网/" style="font-size: 13.33px;">互联网</a> <a href="/tags/产品经理/" style="font-size: 13.33px;">产品经理</a> <a href="/tags/岁月/" style="font-size: 20px;">岁月</a> <a href="/tags/心情/" style="font-size: 16.67px;">心情</a> <a href="/tags/故事/" style="font-size: 20px;">故事</a> <a href="/tags/电影/" style="font-size: 10px;">电影</a> <a href="/tags/记忆/" style="font-size: 16.67px;">记忆</a> <a href="/tags/诗词/" style="font-size: 16.67px;">诗词</a> <a href="/tags/音乐/" style="font-size: 16.67px;">音乐</a>
-        </div>
-    </div>
+
+  
 
 
-            
-                
-    <div class="widget-wrap widget-list">
-        <h3 class="widget-title">友情链接</h3>
-        <div class="widget">
-            <ul>
-                
-                    <li>
-                        <a href="http://zhangzhitao.com">ElvisZhang&#39;s Blog</a>
-                    </li>
-                
-                    <li>
-                        <a href="http://zhangzhitao.com">zhangzhitao</a>
-                    </li>
-                
-                    <li>
-                        <a href="http://zhangzhitao.com">zhitao</a>
-                    </li>
-                
-            </ul>
-        </div>
-    </div>
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 
-            
-        
-    </div>
-</aside>
-                </div>
-            </div>
-        </div>		
-        <footer id="footer">
-    <div class="container">
-        <div class="container-inner">
-            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
-            <div class="credit">
-                <h1 class="logo-wrap">
-                    <a href="/" class="logo"></a>
-                </h1>
-                <p>&copy; 2019 叶立辉</p>
-                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
-            </div>
-        </div>
-    </div>
-</footer>
-        
-
-    
-        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
-        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
-    
+  
 
 
-<!-- Custom Scripts -->
-<script src="/js/main.js"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
 
-			
-    </div>
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
 	
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+
 </body>
 </html>
