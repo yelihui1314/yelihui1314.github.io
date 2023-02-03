@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[测试]]></title>
-    <url>%2F2020%2F11%2F02%2F%E6%B5%8B%E8%AF%95%2F</url>
-    <content type="text"><![CDATA[![测试] 这是为了测试]]></content>
+    <title><![CDATA[曾许别离早，几度梦年少]]></title>
+    <url>%2F2020%2F11%2F20%2F%E5%87%A0%E5%BA%A6%E6%A2%A6%E5%B9%B4%E5%B0%91%2F</url>
+    <content type="text"><![CDATA[暮夜霓灯俏，欢歌入梦遥凛冬地未霜，黄叶隐秋草偶忆琼楼阙，霞影相映照曾许别离早，几度梦年少]]></content>
+      <categories>
+        <category>原创诗词</category>
+      </categories>
+      <tags>
+        <tag>诗词</tag>
+        <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[少年]]></title>
+    <url>%2F2020%2F06%2F01%2F%E5%B0%91%E5%B9%B4%2F</url>
+    <content type="text"><![CDATA[聚散离合，此心安处是吾乡襟怀激荡，愿心中永是少年]]></content>
       <categories>
         <category>心情动态</category>
       </categories>
@@ -140,8 +152,8 @@
         <category>音乐影评</category>
       </categories>
       <tags>
-        <tag>电影</tag>
         <tag>岁月</tag>
+        <tag>电影</tag>
       </tags>
   </entry>
   <entry>
@@ -152,8 +164,8 @@
         <category>音乐影评</category>
       </categories>
       <tags>
-        <tag>电影</tag>
         <tag>岁月</tag>
+        <tag>电影</tag>
       </tags>
   </entry>
   <entry>
